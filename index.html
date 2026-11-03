@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saul | Mi Página Personal</title>
+    <title>Saúl | Mi Página Personal</title>
     <style>
       :root {
         color-scheme: dark light;
@@ -22,10 +22,11 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background: #0f172a;
         color: #f8fafc;
-        padding: 2rem;
+        padding: 2rem 1rem;
       }
 
       .container {
+        width: 100%;
         max-width: 650px;
         background: #1e293b;
         padding: 2.5rem;
@@ -58,13 +59,32 @@
         margin: 0 0 1rem 0;
       }
 
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin: 0.5rem 0 1.5rem 0;
+      }
+
       ul {
         margin: 0;
         padding-left: 1.25rem;
       }
 
       li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
+      }
+
+      a {
+        color: #38bdf8;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      a:hover {
+        color: #818cf8;
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -72,30 +92,50 @@
     <main class="container">
       <h1>Bienvenido a mi página</h1>
       
-      <h2>¿Quién soy?</h2>
-      <p>Soy Saúl, un joven tranquilo, amigable y pacífico. Me gusta mucho disfrutar de mi espacio personal.</p>
-      <img src="yomero.png" width="200" height="290" />
-      <h2>¿De dónde vengo?</h2>
-      <p>Vengo de El Fresno, municipio de San Salvador; un pueblito muy tranquilo y pacífico.</p>
-      <img src="mipueblo.png" width="200" height="200" />
-      <h2>¿Por qué estudio TICs?</h2>
-      <p>Me gusta mucho la tecnología. Aunque sé que aún me falta por descubrir, tengo la certeza de que puedo ir aprendiendo cada día más. Siempre quise saber cómo funciona mi celular, mi laptop, entre otros dispositivos.</p>
-      <h2>Mis pasatiempos</h2>
-      <p>Salir con mi novia, jugar videojuegos, comer, visitar nuevos lugares y aprender sobre temas nuevos.</p>
-      <img src="minoviayyo.png" width="200" height="200" />
-      <h2>Top 5: Mi contenido favorito</h2>
-      <ul>
-        <li>Videojuegos</li>
-        <a href="https://l1nk.dev/6ei3p75" </a>
-        <li>Deportes en motocicleta</li>
-         <a href="https://acesse.one/8gl8z98" </a>
-        <li>Fútbol</li>
-         <a href="https://l1nk.dev/s1lyfzq" </a>
-        <li>Videos de aprendizaje</li>
-         <a href="https://acesse.one/nw01yhl" </a>
-        <li>Comedia</li>
-         <a href="https://acesse.one/8xjbfai" </a>
-      </ul>
+      <section>
+        <h2>¿Quién soy?</h2>
+        <p>Soy Saúl, un joven tranquilo, amigable y pacífico. Me gusta mucho disfrutar de mi espacio personal.</p>
+        <img src="yomero.png" alt="Foto de Saúl" width="200" height="290" />
+      </section>
+
+      <section>
+        <h2>¿De dónde vengo?</h2>
+        <p>Vengo de El Fresno, municipio de San Salvador; un pueblito muy tranquilo y pacífico.</p>
+        <img src="mipueblo.png" alt="Imagen de El Fresno, San Salvador" width="200" height="200" />
+      </section>
+
+      <section>
+        <h2>¿Por qué estudio TICs?</h2>
+        <p>Me gusta mucho la tecnología. Aunque sé que aún me falta por descubrir, tengo la certeza de que puedo ir aprendiendo cada día más. Siempre quise saber cómo funciona mi celular, mi laptop, entre otros dispositivos.</p>
+      </section>
+
+      <section>
+        <h2>Mis pasatiempos</h2>
+        <p>Salir con mi novia, jugar videojuegos, comer, visitar nuevos lugares y aprender sobre temas nuevos.</p>
+        <img src="minoviayyo.png" alt="Saúl y su novia" width="200" height="200" />
+      </section>
+
+      <section>
+        <h2>Top 5: Mi contenido favorito</h2>
+        <ul>
+          <li>
+            <a href="https://l1nk.dev/6ei3p75" target="_blank" rel="noopener noreferrer">Videojuegos</a>
+          </li>
+          <li>
+            <a href="https://acesse.one/8gl8z98" target="_blank" rel="noopener noreferrer">Deportes en motocicleta</a>
+          </li>
+          <li>
+            <a href="https://l1nk.dev/s1lyfzq" target="_blank" rel="noopener noreferrer">Fútbol</a>
+          </li>
+          <li>
+            <a href="https://acesse.one/nw01yhl" target="_blank" rel="noopener noreferrer">Videos de aprendizaje</a>
+          </li>
+          <li>
+            <a href="https://acesse.one/8xjbfai" target="_blank" rel="noopener noreferrer">Comedia</a>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
+
